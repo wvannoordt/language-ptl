@@ -1,0 +1,13 @@
+name: 'PTL'
+scopeName: 'ptl'
+fileTypes: ['ptl']
+type: 'tree-sitter'
+parser: 'tree-sitter-ptl'
+
+scopes:
+  'source_file': 'source.ptl'
+  'comment > string_identifier': 'comment.line.double-slash.ptl'
+  'basic_identifier > number_idnetifier': 'language.constant.ptl'
+
+comments:
+  start: '// '

@@ -1,0 +1,20 @@
+#define myvar 4
+#define myvartwo 2
+GlobalSettings
+{
+	Display
+	{
+		debugLevel = $(myvar)
+		debugLevelzap = 3
+	}
+	Memory
+	{
+		allowStackAllocation = false
+	}
+}
+Domain
+{
+	blockDim = [1, 2, 2]
+	coolio = @sqrt($(myvartwo))
+}
+// parallel

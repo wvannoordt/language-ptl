@@ -1,0 +1,9 @@
+name: 'PTL'
+scopeName: 'ptl'
+fileTypes: [ 'ptl' ]
+patterns: [
+    {
+        match: '//'
+        name: 'language.constant.ptl'
+    }
+]

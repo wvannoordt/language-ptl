@@ -1,0 +1,22 @@
+{
+  "name": "language-ptl",
+  "version": "0.0.1",
+  "description": "Syntax highlighting for the PTL format",
+  "keywords": [
+   "tree-sitter"
+ ],
+  "repository": "https://github.com/wvannoordt/language-ptl",
+  "keywords": [
+    "syntax",
+    "highlighting",
+    "grammar"
+  ],
+  "license": "MIT",
+  "bugs": "https://github.com/wvannoordt/language-ptl/issues",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+},
+  "dependencies": {
+    "tree-sitter-ptl": "^0.0.1"
+    }
+}
