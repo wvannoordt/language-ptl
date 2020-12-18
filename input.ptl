@@ -4,7 +4,7 @@ GlobalSettings
 {
 	Display
 	{
-		debugLevel = $(myvar)
+		debugLevel = @sqrt($(myvar))
 		debugLevelzap = 3
 	}
 	Memory
@@ -17,4 +17,4 @@ Domain
 	blockDim = [1, 2, 2]
 	coolio = @sqrt($(myvartwo))
 }
-// parallel
+//parallel
