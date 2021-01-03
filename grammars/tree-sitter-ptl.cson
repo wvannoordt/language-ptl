@@ -19,6 +19,7 @@ scopes:
   'function_invocation > string_identifier': 'variable.other.member.ptl'
   'function_invocation > function_invocation_sym': 'variable.other.member.ptl'
   'comment > anything': 'comment.line.double-slash.ptl'
+  'assignment > assign_sym': 'entity.name.function.ptl'
   'comment > comment_symbol': 'comment.line.double-slash.ptl'
 
 comments:
