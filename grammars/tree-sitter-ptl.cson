@@ -24,3 +24,9 @@ scopes:
 
 comments:
   start: '//'
+
+folds: [
+  {
+    type: 'section_identifier'
+  }
+]
