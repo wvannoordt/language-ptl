@@ -1,6 +1,6 @@
 {
   "name": "language-ptl",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "Syntax highlighting for the PTL format",
   "keywords": [
     "syntax",
